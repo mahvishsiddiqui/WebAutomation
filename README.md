@@ -1,10 +1,10 @@
 # WebAutomation
 Automate Testing a sample item page
 
-Test Plan: TO DO
+1. Test Plan
 
-Test Scenarios listed under `PageObjectModel.java`
+2. Test Scenarios listed under `PageObjectModel.java`
 
-Finding Elements listed under `Search.java`
+3. Finding Elements listed under `Search.java`
 
 
