@@ -1,0 +1,41 @@
+Assumptions
+1. Requirement is complete.
+2. Get Environment details ( Targeted users, target OS, Daily Active Users on which desktop \ mobile devices)
+3. target users are based in North America
+
+Test Plan
+
+
+Validate all tests for Items page is supported on following configurations.
+
+Test Configurations
+
+		Desktop Browsers 
+		1. Chrome (latest or n-1 release)
+		2. Firefox (latest or n-1 release)
+		3. Safari (latest or n-1 release)
+		4. Internet Explorer (latest or n-1 release)
+
+		Desktop OSes
+		1. Mac OS X 10.13 High Sierra , 10.14 Mojave
+		2. Microsft Windows 10
+
+		Mobile Browsers
+		1. Android
+		- Chrome
+		- Dolphin
+		- Firefox
+		- Samsung Internet Browser (depending upon target users)
+
+		2. iOS
+		- Safari
+		- Chrome
+
+		Mobile OSes 
+		1. Android - Android P, 8, 7
+		2. iOS - iOS 12, iOS 11, iOS 10 
+
+Test Cycles 
+	Run on every PR Merge. 
+	Allow, merging the PR once Test run passes
+	Notify code owners and PR owner when test fails
